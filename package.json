@@ -1,0 +1,35 @@
+{
+  "name": "premier",
+  "version": "1.0.0",
+  "description": "Roll out the carpet for shameless self promotion",
+  "main": "bin/www",
+  "scripts": {
+    "start": "nodemon bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backdesk/premier.git"
+  },
+  "author": "james gardner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/backdesk/premier/issues"
+  },
+  "homepage": "https://github.com/backdesk/premier/#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "bluebird": "^3.2.2",
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "jade": "^1.11.0",
+    "moment": "^2.11.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pg": "^4.4.4",
+    "pg-promise": "^3.1.6",
+    "striptags": "^2.1.1",
+    "validator": "^4.9.0"
+  }
+}
